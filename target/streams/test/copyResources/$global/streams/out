@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/nelson/Google Drive/CompSci/PPL/lab1-blonde/src/test/resources/lab1,/Users/nelson/Google Drive/CompSci/PPL/lab1-blonde/target/scala-2.11/test-classes/lab1)[0m
+[0m[[0mdebug[0m] [0m	(/Users/nelson/Google Drive/CompSci/PPL/lab1-blonde/src/test/resources/lab1/Makefile,/Users/nelson/Google Drive/CompSci/PPL/lab1-blonde/target/scala-2.11/test-classes/lab1/Makefile)[0m
+[0m[[0mdebug[0m] [0m	(/Users/nelson/Google Drive/CompSci/PPL/lab1-blonde/src/test/resources/lab1/test101_arith.ans,/Users/nelson/Google Drive/CompSci/PPL/lab1-blonde/target/scala-2.11/test-classes/lab1/test101_arith.ans)[0m
+[0m[[0mdebug[0m] [0m	(/Users/nelson/Google Drive/CompSci/PPL/lab1-blonde/src/test/resources/lab1/test101_arith.jsy,/Users/nelson/Google Drive/CompSci/PPL/lab1-blonde/target/scala-2.11/test-classes/lab1/test101_arith.jsy)[0m
+[0m[[0mdebug[0m] [0m	(/Users/nelson/Google Drive/CompSci/PPL/lab1-blonde/src/test/resources/lab1/test102_divbyzero.ans,/Users/nelson/Google Drive/CompSci/PPL/lab1-blonde/target/scala-2.11/test-classes/lab1/test102_divbyzero.ans)[0m
+[0m[[0mdebug[0m] [0m	(/Users/nelson/Google Drive/CompSci/PPL/lab1-blonde/src/test/resources/lab1/test102_divbyzero.jsy,/Users/nelson/Google Drive/CompSci/PPL/lab1-blonde/target/scala-2.11/test-classes/lab1/test102_divbyzero.jsy)[0m

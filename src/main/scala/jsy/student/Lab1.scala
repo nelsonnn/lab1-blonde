@@ -8,7 +8,7 @@ object Lab1 extends jsy.util.JsyApplication with jsy.lab1.Lab1Like {
 
   /*
    * CSCI 3155: Lab 1
-   * <Your Name>
+   * Nelson Mitchell
    *
    * Partner: <Your Partner's Name>
    * Collaborators: <Any Collaborators>
@@ -55,11 +55,22 @@ object Lab1 extends jsy.util.JsyApplication with jsy.lab1.Lab1Like {
 
   /* Exercises */
 
-  def abs(n: Double): Double = ???
+  def abs(n: Double): Double = {
+    if (n < 0) -n
+    else n
 
-  def xor(a: Boolean, b: Boolean): Boolean = ???
+  }
 
-  def repeat(s: String, n: Int): String = ???
+  def xor(a: Boolean, b: Boolean): Boolean = {
+    (a && !b) || (b && !a)
+  }
+
+  def repeat(s: String, n: Int): String = {
+    n match {
+      case 0 => ""
+      case n => s + repeat(s, n-1)
+    }
+  }
 
   def sqrtStep(c: Double, xn: Double): Double = ???
 
@@ -83,7 +94,7 @@ object Lab1 extends jsy.util.JsyApplication with jsy.lab1.Lab1Like {
   def repOk(t: SearchTree): Boolean = {
     def check(t: SearchTree, min: Int, max: Int): Boolean = t match {
       case Empty => true
-      case Node(l, d, r) => ???
+      case Node(l, d, r) => check(l, min, d-1) && check(r, d, max) && (d >= min) && (d <= max)
     }
     check(t, Int.MinValue, Int.MaxValue)
   }
