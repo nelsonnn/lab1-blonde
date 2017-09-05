@@ -1,29 +1,5 @@
 [0m[[0minfo[0m] [0m[32mLab1JsyTests:[0m[0m
 [0m[[0minfo[0m] [0m[32meval on src/test/resources/lab1/test101_arith.jsy[0m[0m
-[0m[[0minfo[0m] [0m[31m- should match src/test/resources/lab1/test101_arith.ans *** FAILED *** (5 milliseconds)[0m[0m
-[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:230)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.student.Lab1$.eval(Lab1.scala:120)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.student.Lab1$.processFile(Lab1.scala:143)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.util.JsyApplication$$anonfun$8$$anonfun$apply$1.apply$mcV$sp(JsyApplication.scala:46)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.util.JsyApplication$$anonfun$8$$anonfun$apply$1.apply(JsyApplication.scala:46)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.util.JsyApplication$$anonfun$8$$anonfun$apply$1.apply(JsyApplication.scala:46)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.Console$.withOut(Console.scala:65)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.util.JsyApplication$$anonfun$8.apply(JsyApplication.scala:46)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.util.JsyApplication$$anonfun$8.apply(JsyApplication.scala:40)[0m[0m
-[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- should match src/test/resources/lab1/test101_arith.ans (16 milliseconds)[0m[0m
 [0m[[0minfo[0m] [0m[32meval on src/test/resources/lab1/test102_divbyzero.jsy[0m[0m
-[0m[[0minfo[0m] [0m[31m- should match src/test/resources/lab1/test102_divbyzero.ans *** FAILED *** (1 millisecond)[0m[0m
-[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:230)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.student.Lab1$.eval(Lab1.scala:120)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.student.Lab1$.processFile(Lab1.scala:143)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.util.JsyApplication$$anonfun$8$$anonfun$apply$1.apply$mcV$sp(JsyApplication.scala:46)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.util.JsyApplication$$anonfun$8$$anonfun$apply$1.apply(JsyApplication.scala:46)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.util.JsyApplication$$anonfun$8$$anonfun$apply$1.apply(JsyApplication.scala:46)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.Console$.withOut(Console.scala:65)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.util.JsyApplication$$anonfun$8.apply(JsyApplication.scala:46)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at jsy.util.JsyApplication$$anonfun$8.apply(JsyApplication.scala:40)[0m[0m
-[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- should match src/test/resources/lab1/test102_divbyzero.ans (1 millisecond)[0m[0m
